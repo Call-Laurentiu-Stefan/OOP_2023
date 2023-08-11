@@ -1,0 +1,17 @@
+window_sizes 1920 1001 450 1464 815 128
+
+diagrams
+  active  classdiagram_ref 128002 // Contact
+    1464 815 100 A4 0 0
+end
+show_stereotypes
+selected 
+  package_ref 129 // diagrama
+open
+  class_ref 128130 // Contact
+  class_ref 128386 // Prieten
+  class_ref 128514 // Coleg
+  class_ref 128770 // Cunoscut
+  class_ref 128898 // Agenda
+end
+end

@@ -1,0 +1,6 @@
+class Cunoscut
+!!!130818.cpp!!!	Cunoscut(in nume : string, in tel : string)
+
+!!!130946.cpp!!!	getNume() : string
+
+    return nume;

@@ -10,7 +10,7 @@ class NumberList
     int count;
 
 public:
-
+    NumberList();
     void Init();          // count will be 0
 
     bool Add(int x);      // adds X to the numbers list and increase the data member count.

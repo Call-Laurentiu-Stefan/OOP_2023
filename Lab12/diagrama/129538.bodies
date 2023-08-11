@@ -1,0 +1,6 @@
+class Prieten
+!!!131074.cpp!!!	Prieten(in nume : string, in dn : string, in tel : string, in adr : string)
+
+!!!131202.cpp!!!	getNume() : string
+
+	return nume;

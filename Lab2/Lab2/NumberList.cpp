@@ -1,5 +1,7 @@
 #include "NumberList.h"
 
+NumberList::NumberList(){}
+
 void NumberList::Init()
 {
 	count = 0;
@@ -7,7 +9,7 @@ void NumberList::Init()
 
 bool NumberList::Add(int x)
 {
-	return count <= 10 ? numbers[count++] = x : false;
+	return count < 10 ? numbers[count++] = x : false;
 }
 
 void NumberList::Sort()

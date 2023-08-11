@@ -1,0 +1,36 @@
+class Agenda
+!!!129794.cpp!!!	find_by_name(in nume : string) : bool
+
+    for (auto i : contacte) {
+        if (i->getNume() == nume) {
+            cout << "Contact gasit!\n";
+            return true;
+        }
+    }
+    cout << "Contactul nu a fost gasit!\n";
+    return false;
+!!!129922.cpp!!!	prieteni() : vector<Prieten*>
+
+    vector<Prieten*> rezultat;
+    for (auto i : contacte) {
+        Prieten* aux = dynamic_cast<Prieten*>(i);
+        if (aux != nullptr) {
+            rezultat.push_back(aux);
+        }
+    }
+    return rezultat;
+!!!130050.cpp!!!	delete_contact(in nume : string) : bool
+
+    for (int i = 0; i < contacte.size(); i++) {
+        if (contacte[i]->getNume() == nume) {
+            cout << "Contactul cu numele " << contacte[i]->getNume() << " a fost sters!\n";
+            contacte.erase(contacte.begin() + i);
+            return true;
+        }
+    }
+    cout << "Contactul cu numele " << nume << " nu a fost gasit!\n";
+    return false;
+!!!130178.cpp!!!	add_contact(inout contact : Contact) : void
+
+    contacte.push_back(contact);
+    cout << "Contactul a fost adaugat\n";

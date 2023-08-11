@@ -1,0 +1,6 @@
+class Coleg
+!!!130306.cpp!!!	Coleg(in nume : string, in tel : string, in firma : string, in adr : string)
+
+!!!130434.cpp!!!	getNume() : string
+
+    return nume;

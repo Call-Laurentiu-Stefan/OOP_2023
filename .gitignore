@@ -396,3 +396,7 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+cmake-3.26.3
+googletest-1.13.0
+build
+Lab11
